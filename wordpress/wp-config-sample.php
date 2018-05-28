@@ -17,6 +17,8 @@
  *
  * @package WordPress
  */
+ define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
